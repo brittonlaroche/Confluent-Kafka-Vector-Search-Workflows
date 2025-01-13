@@ -1,5 +1,6 @@
 # Step 3.  Workflows
 
+![Inference Implementation Architecture](/files/img/workflowsGeneralPattern.png)  
    
 ## 4 Steps to Building a GenAI Application
 There are 4 steps to building a GenAI Application and I have included a github for each step.    
