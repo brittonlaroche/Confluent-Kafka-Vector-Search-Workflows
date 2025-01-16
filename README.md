@@ -5,7 +5,14 @@ Workflows are often a second thought on most Generative AI applications.  Its cr
 ### General Pattern
 ![Workflows Genreral Architecture](/files/img/workflowsGeneralPattern2.png)  
 
-Workflows are an
+Workflows are a critical part to solving a users question by getting the right answers from the right places.  Maybe we need to call the LLM maybe we don't, maybe we need to do a vector search maybe we do not.  Maybe we can save on cost if we route the questions more effectively or cache the results to common questions.  Focusing on this retail example lets consider the following questions.
+
+"What time does the store on Stonebrook Pkwy open tomorrow?"
+"How many reward points do I have?"
+"Show me your cheapest mens formal dress shirts."
+"I need to buy some formal dress shoes now, where can I go?"
+
+In some cases we need to get information from the product vector database.  In some cases we need to get user profile data. In some cases we need to get information on the physical location and hours of operation of retail store.  Some times we need to combine all three types of data into a vector search.
 
 ### Implementation Detail
 ![Workflows Genreral Architecture](/files/img/workflowsImplementation.png)  
