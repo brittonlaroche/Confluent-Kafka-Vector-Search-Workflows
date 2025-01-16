@@ -1,8 +1,7 @@
 # Step 3.  Workflows
 
 Workflows are often a second thought on most Generative AI applications.  Its critical to capture all the different possibilities and places that a GenAI app will need to get data.  Not all of it comes from the Vector Database, and often there are better, easier more effective and effcient ways to get things done. 
-
-### General Pattern
+   
 ![Workflows Genreral Architecture](/files/img/workflowsGeneralPattern2.png)  
 
 Workflows are a critical part to solving a users question by getting the right answers from the right places.  Maybe we need to call the LLM maybe we don't, maybe we need to do a vector search maybe we do not.  Maybe we can save on cost if we route the questions more effectively or cache the results to common questions.  Focusing on this retail example lets consider the following questions.
