@@ -124,6 +124,6 @@ We would prompt the LLM with the products and stores retrieved from the LLM and 
     
 When we pull back the product recomendations we have already made the vector search more efficient.  If we pass back products with an error for example the wrong size the LLM can notice and possibly remove them. 
 
-How do we merge this data?  How do we know its all ready to query?  Again this is all part of the workflows process. For our purposes we will use Flink SQL and query the user_prompts topic based of the values in the user_questions processed topic.  This github will walk us through teh process.  Certianly there are different ways to do this, but its good to see this method as a learning exercise.
+How do we merge this data?  How do we know its all ready to query?  Again this is all part of the workflows process. For our purposes we will use Flink SQL and query the user_prompts topic based of the values in the user_questions processed topic.  This github will walk us through the process.  Certianly there are different ways to do this, but its good to see this method as a learning exercise.
 
     
