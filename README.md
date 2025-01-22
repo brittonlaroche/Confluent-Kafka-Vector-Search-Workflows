@@ -37,7 +37,7 @@ In some cases we need to get information from the product vector database.  In s
 ### Implementation Detail
 ![Workflows Genreral Architecture](/files/img/workflowsImplementation.png)  
 
-Lets consider the question "I need to buy some formal dress shoes now, where can I go?" This question needs the shoe size from the user_profile topic or ODS. It needs the store hours to compare to the current time, and its needs the store location.  Finally it needs a vector search against the product collection based on the user shoe size and closest store id.
+Lets consider the question "I need to buy some formal dress shoes in my size, where can I go right now thats close to my address?" This question needs the shoe size from the user_profile topic or ODS. It needs the store hours to compare to the current time, and its needs the store location.  Finally it needs a vector search against the product collection based on the user shoe size and closest store id.
 
 Lets take a look at our user profile data.
 
@@ -57,5 +57,71 @@ Lets take a look at our user profile data.
 }
 ```
 
+Lets take a look at our store operations data:  
+   
+```json
+ {
+    "store_id": 1,
+    "address": {
+     "street": "15220 Montfort Dr",
+     "city": "Dallas",
+     "state": "TX",
+     "zip": "75248"
+   },
+   "hoursOfOperation": [
+     {
+       "day": "Monday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Tuesday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Wednesday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Thursday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Friday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Saturday",
+       "open": "06:00",
+       "close": "23:00"
+     },
+     {
+       "day": "Sunday",
+       "open": "06:00",
+       "close": "23:00"
+     }
+   ]
+ }
+```
 
+Sending all the user_profile data and all of the store_operations data to the LLM for each user question would not be advisable.  It would eat up all our tokens and context very quickly.  What we need to do is send the schema and maybe an example of a single store to the LLM and ask it to determine the type of data search we need, User, Store, or Product Vector and what fields we need based on the user question. For example it might respond with the following recommednations.
 
+```
+{type: user_profile, "fields": ["shoe_size", "age group"]}
+{type: store_operations, "fields": [hoursOfOperation,address]}
+{type: product_vector, "search_query": "I need to buy some formal dress shoes"}
+```
+
+We would prompt the LLM with the products and stores retrieved from the LLM and the users shoe size and address. Or we could glean that information and pass it to the Vector search for example only search for medium size shoes. The more work we can do on our end before passing it to the LLM the better as it reduces cost.  We can take prompts like shoe size and matching store_id(s) and pass that into the vector search. For example we can take the vector search_query and append the results from its user_prompt. 
+
+```json
+{type: product_vector, "search": "I need to buy some formal dress shoes adult medium size store_ids: 37,38,42"}
+```
+    
+When we pull back the product recomendations we have already made the vector search more efficient.  If we pass back products with the wrong size the LLM can notice and possibly remove them. 
+
+    
