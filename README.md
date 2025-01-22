@@ -112,7 +112,7 @@ Sending all the user_profile data and all of the store_operations data to the LL
 
 ```json
 {"type": "user_profile", "fields": ["shoe_size", "age group", "address"]}
-{"type": "store_operations", "fields": [hoursOfOperation,address], "Value":"Saturday 1800"}
+{"type": "store_operations", "fields": ["hoursOfOperation","address"], "Value":"Saturday 1800"}
 {"type": "product_vector", "search_query": "I need to buy some formal dress shoes"}
 ```
 
