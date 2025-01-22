@@ -110,7 +110,7 @@ Lets take a look at our store operations data:
 
 Sending all the user_profile data and all of the store_operations data to the LLM for each user question would not be advisable.  It would eat up all our tokens and context very quickly.  What we need to do is send the schema and maybe an example of a single store to the LLM and ask it to determine the type of data search we need, User, Store, or Product Vector and what fields we need based on the user question. For example it might respond with the following recommednations.
 
-```
+```json
 {"type": "user_profile", "fields": ["shoe_size", "age group", "address"]}
 {"type": "store_operations", "fields": [hoursOfOperation,address], "Value":"Saturday 1800"}
 {"type": "product_vector", "search_query": "I need to buy some formal dress shoes"}
@@ -119,7 +119,7 @@ Sending all the user_profile data and all of the store_operations data to the LL
 We would prompt the LLM with the products and stores retrieved from the LLM and the users shoe size and address. Or we could glean that information and pass it to the Vector search for example only search for medium size shoes. The more work we can do on our end before passing it to the LLM the better as it reduces cost.  We can take prompts like shoe size and matching store_id(s) and pass that into the vector search. For example we can take the vector search_query and append the results from its user_prompt. 
 
 ```json
-{type: product_vector, "search": "I need to buy some formal dress shoes adult medium size store_ids: 37,38,42"}
+{"type": "product_vector", "search": "I need to buy some formal dress shoes adult medium size store_ids: 37,38,42"}
 ```
     
 When we pull back the product recomendations we have already made the vector search more efficient.  If we pass back products with an error for example the wrong size the LLM can notice and possibly remove them. 
