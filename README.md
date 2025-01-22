@@ -17,10 +17,10 @@ This github explores the third step in Building a RAG Enabaled Gen AI applicatio
 
    1. Obtain the user content (question or statement) from the GenAI app in a topic through a Kafka Consumer  
    2. Call a reasoning agent to determine what datasources are required and what is the most efficient way to obtain the data.   
-   3. Place the reasoning agent reponse with the datasource type with the users orginal question, and a refined query into a new topic "user_questions_processed".
+   3. Place the reasoning agent reponse with the datasource type with the users orginal question, and a refined set of queries into a new topic "user_questions_processed".
    4. Process the data in the "user_questions_processed" topic for each different datasource (vector database, kafka topic, ODS, etc..)
    5. After obtaining the data from each data source place it in the "user_prompts" topic
-   6. Querry the LLM with the Model function and place the response in the LLM Response topic
+   6. Prompt the LLM with the the user's prompts through the Model function and place the response in the LLM Response topic
    7. Place the final repsonse in a topic after post processing to be consumed by the GenAI app (We will skip this step as step 6 will be enough for work flows)  
 
 This github is a continuation of a previous github that populated a vector database.  Be sure to check it out as we are using the data generated in step 1 for vector searches in this github example. [Confluent-Kafka-Vector-Search-Prompt-Inference](https://github.com/brittonlaroche/Confluent-Kafka-Vector-Search-Prompt-Inference)   
