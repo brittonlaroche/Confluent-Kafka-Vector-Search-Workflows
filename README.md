@@ -37,5 +37,25 @@ In some cases we need to get information from the product vector database.  In s
 ### Implementation Detail
 ![Workflows Genreral Architecture](/files/img/workflowsImplementation.png)  
 
-Lets consider the question 
+Lets consider the question "I need to buy some formal dress shoes now, where can I go?" This question needs the shoe size from the user_profile topic or ODS. It needs the store hours to compare to the current time, and its needs the store location.  Finally it needs a vector search against the product collection based on the user shoe size and closest store id.
+
+Lets take a look at our user profile data.
+
+```json
+{
+   "email": "bob@example.com",
+   "address": "1966 Natural Bridge Dr, Frisco TX 75036",
+   "first_name": "Bob",
+   "last_name": "Miko",
+   "sex": "Male",
+   "shirt_size": "Large",
+   "shoe_size": "Medium",
+   "pants_size": "Medium",
+   "hat_size": "Large",
+   "age_group":"Adult",
+   "reward_points": 38790
+}
+```
+
+
 
