@@ -1,0 +1,655 @@
+{
+  "state": "Texas",
+  "stores": [
+    {
+      "store_id": 1,
+      "address": {
+        "street": "9301 Forest Ln",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75243"
+      },
+      "coordinates": {
+        "latitude": 32.9072,
+        "longitude": -96.7386
+      }
+    },
+    {
+      "store_id": 2,
+      "address": {
+        "street": "3155 W Wheatland Rd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75237"
+      },
+      "coordinates": {
+        "latitude": 32.6473,
+        "longitude": -96.8755
+      }
+    },
+    {
+      "store_id": 3,
+      "address": {
+        "street": "15757 Coit Rd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75248"
+      },
+      "coordinates": {
+        "latitude": 32.9600,
+        "longitude": -96.7682
+      }
+    },
+    {
+      "store_id": 4,
+      "address": {
+        "street": "18121 Marsh Ln",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75287"
+      },
+      "coordinates": {
+        "latitude": 33.0005,
+        "longitude": -96.8557
+      }
+    },
+    {
+      "store_id": 5,
+      "address": {
+        "street": "9410 Webb Chapel Rd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75220"
+      },
+      "coordinates": {
+        "latitude": 32.8607,
+        "longitude": -96.8742
+      }
+    },
+    {
+      "store_id": 6,
+      "address": {
+        "street": "4122 Lyndon B Johnson Fwy",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75244"
+      },
+      "coordinates": {
+        "latitude": 32.9201,
+        "longitude": -96.8427
+      }
+    },
+    {
+      "store_id": 7,
+      "address": {
+        "street": "200 Short Blvd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75232"
+      },
+      "coordinates": {
+        "latitude": 32.6761,
+        "longitude": -96.8410
+      }
+    },
+    {
+      "store_id": 8,
+      "address": {
+        "street": "6185 Retail Rd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75231"
+      },
+      "coordinates": {
+        "latitude": 32.8672,
+        "longitude": -96.7479
+      }
+    },
+    {
+      "store_id": 9,
+      "address": {
+        "street": "1035 Hickory Creek Blvd",
+        "city": "Hickory Creek",
+        "state": "TX",
+        "zip": "75065"
+      },
+      "coordinates": {
+        "latitude": 33.1404,
+        "longitude": -97.0437
+      }
+    },
+    {
+      "store_id": 10,
+      "address": {
+        "street": "951 W Belt Line Rd",
+        "city": "DeSoto",
+        "state": "TX",
+        "zip": "75115"
+      },
+      "coordinates": {
+        "latitude": 32.5927,
+        "longitude": -96.8661
+      }
+    },
+    {
+      "store_id": 11,
+      "address": {
+        "street": "7075 W Wheatland Rd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75249"
+      },
+      "coordinates": {
+        "latitude": 32.6439,
+        "longitude": -96.9406
+      }
+    },
+    {
+      "store_id": 12,
+      "address": {
+        "street": "400 N Hwy 67",
+        "city": "Midlothian",
+        "state": "TX",
+        "zip": "76065"
+      },
+      "coordinates": {
+        "latitude": 32.4706,
+        "longitude": -96.9953
+      }
+    },
+    {
+      "store_id": 13,
+      "address": {
+        "street": "2501 Lakeview Pkwy",
+        "city": "Rowlett",
+        "state": "TX",
+        "zip": "75088"
+      },
+      "coordinates": {
+        "latitude": 32.9193,
+        "longitude": -96.5651
+      }
+    },
+    {
+      "store_id": 14,
+      "address": {
+        "street": "8840 Benbrook Blvd",
+        "city": "Benbrook",
+        "state": "TX",
+        "zip": "76126"
+      },
+      "coordinates": {
+        "latitude": 32.6755,
+        "longitude": -97.4603
+      }
+    },
+    {
+      "store_id": 15,
+      "address": {
+        "street": "4801 S Cooper St",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76017"
+      },
+      "coordinates": {
+        "latitude": 32.6780,
+        "longitude": -97.1303
+      }
+    },
+    {
+      "store_id": 16,
+      "address": {
+        "street": "4801 Troup Hwy",
+        "city": "Tyler",
+        "state": "TX",
+        "zip": "75703"
+      },
+      "coordinates": {
+        "latitude": 32.3073,
+        "longitude": -95.2811
+      }
+    },
+    {
+      "store_id": 17,
+      "address": {
+        "street": "190 E Round Grove Rd",
+        "city": "Lewisville",
+        "state": "TX",
+        "zip": "75067"
+      },
+      "coordinates": {
+        "latitude": 33.0016,
+        "longitude": -96.9891
+      }
+    },
+    {
+      "store_id": 18,
+      "address": {
+        "street": "115 W FM 544",
+        "city": "Murphy",
+        "state": "TX",
+        "zip": "75094"
+      },
+      "coordinates": {
+        "latitude": 33.0136,
+        "longitude": -96.6221
+      }
+    },
+    {
+      "store_id": 19,
+      "address": {
+        "street": "150 N Interstate 35 E",
+        "city": "Waxahachie",
+        "state": "TX",
+        "zip": "75165"
+      },
+      "coordinates": {
+        "latitude": 32.4138,
+        "longitude": -96.8452
+      }
+    },
+    {
+      "store_id": 20,
+      "address": {
+        "street": "1201 Hwy 114",
+        "city": "Grapevine",
+        "state": "TX",
+        "zip": "76051"
+      },
+      "coordinates": {
+        "latitude": 32.9343,
+        "longitude": -97.0784
+      }
+    },
+    {
+      "store_id": 21,
+      "address": {
+        "street": "2650 S Hwy 161",
+        "city": "Grand Prairie",
+        "state": "TX",
+        "zip": "75052"
+      },
+      "coordinates": {
+        "latitude": 32.7081,
+        "longitude": -97.0129
+      }
+    },
+    {
+      "store_id": 22,
+      "address": {
+        "street": "100 Ryan Dr",
+        "city": "Red Oak",
+        "state": "TX",
+        "zip": "75154"
+      },
+      "coordinates": {
+        "latitude": 32.5273,
+        "longitude": -96.8217
+      }
+    },
+    {
+      "store_id": 23,
+      "address": {
+        "street": "7401 Park Vista Blvd",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76137"
+      },
+      "coordinates": {
+        "latitude": 32.8752,
+        "longitude": -97.2763
+      }
+    },
+    {
+      "store_id": 24,
+      "address": {
+        "street": "6401 NE Loop 820",
+        "city": "North Richland Hills",
+        "state": "TX",
+        "zip": "76180"
+      },
+      "coordinates": {
+        "latitude": 32.8342,
+        "longitude": -97.2390
+      }
+    },
+    {
+      "store_id": 25,
+      "address": {
+        "street": "9101 N Tarrant Pkwy",
+        "city": "North Richland Hills",
+        "state": "TX",
+        "zip": "76182"
+      },
+      "coordinates": {
+        "latitude": 32.8865,
+        "longitude": -97.1930
+      }
+    },
+    {
+      "store_id": 26,
+      "address": {
+        "street": "2225 W Interstate 20",
+        "city": "Grand Prairie",
+        "state": "TX",
+        "zip": "75052"
+      },
+      "coordinates": {
+        "latitude": 32.6811,
+        "longitude": -97.0321
+      }
+    },
+    {
+      "store_id": 27,
+      "address": {
+        "street": "1735 S Highway 288 Bypass",
+        "city": "Denton",
+        "state": "TX",
+        "zip": "76205"
+      },
+      "coordinates": {
+        "latitude": 33.2035,
+        "longitude": -97.1336
+      }
+    },
+    {
+      "store_id": 28,
+      "address": {
+        "street": "1213 E Trinity Mills Rd",
+        "city": "Carrollton",
+        "state": "TX",
+        "zip": "75006"
+      },
+      "coordinates": {
+        "latitude": 32.9694,
+        "longitude": -96.8982
+      }
+    },
+    {
+      "store_id": 29,
+      "address": {
+        "street": "5302 N Garland Ave",
+        "city": "Garland",
+        "state": "TX",
+        "zip": "75040"
+      },
+      "coordinates": {
+        "latitude": 32.9604,
+        "longitude": -96.6386
+      }
+    },
+    {
+      "store_id": 30,
+      "address": {
+        "street": "1801 Marketplace Dr",
+        "city": "Garland",
+        "state": "TX",
+        "zip": "75041"
+      },
+      "coordinates": {
+        "latitude": 32.8821,
+        "longitude": -96.6381
+      }
+    },
+    {
+      "store_id": 31,
+      "address": {
+        "street": "1800 S Loop 288",
+        "city": "Denton",
+        "state": "TX",
+        "zip": "76205"
+      },
+      "coordinates": {
+        "latitude": 33.1979,
+        "longitude": -97.1056
+      }
+    },
+    {
+      "store_id": 32,
+      "address": {
+        "street": "1801 W Irving Blvd",
+        "city": "Irving",
+        "state": "TX",
+        "zip": "75061"
+      },
+      "coordinates": {
+        "latitude": 32.8131,
+        "longitude": -96.9573
+      }
+    },
+    {
+      "store_id": 33,
+      "address": {
+        "street": "4100 W Airport Fwy",
+        "city": "Irving",
+        "state": "TX",
+        "zip": "75062"
+      },
+      "coordinates": {
+        "latitude": 32.8355,
+        "longitude": -97.0044
+      }
+    },
+    {
+      "store_id": 34,
+      "address": {
+        "street": "1407 W Main St",
+        "city": "Lewisville",
+        "state": "TX",
+        "zip": "75067"
+      },
+      "coordinates": {
+        "latitude": 33.0423,
+        "longitude": -97.0247
+      }
+    },
+    {
+      "store_id": 35,
+      "address": {
+        "street": "2050 N State Highway 360",
+        "city": "Grand Prairie",
+        "state": "TX",
+        "zip": "75050"
+      },
+      "coordinates": {
+        "latitude": 32.7732,
+        "longitude": -97.0591
+      }
+    },
+    {
+      "store_id": 36,
+      "address": {
+        "street": "1001 N US 287",
+        "city": "Mansfield",
+        "state": "TX",
+        "zip": "76063"
+      },
+      "coordinates": {
+        "latitude": 32.5857,
+        "longitude": -97.1434
+      }
+    },
+    {
+      "store_id": 37,
+      "address": {
+        "street": "12300 Lake June Rd",
+        "city": "Balch Springs",
+        "state": "TX",
+        "zip": "75180"
+      },
+      "coordinates": {
+        "latitude": 32.7355,
+        "longitude": -96.6049
+      }
+    },
+    {
+      "store_id": 38,
+      "address": {
+        "street": "7401 Samuell Blvd",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75228"
+      },
+      "coordinates": {
+        "latitude": 32.7966,
+        "longitude": -96.7003
+      }
+    },
+    {
+      "store_id": 39,
+      "address": {
+        "street": "2750 W University Dr",
+        "city": "Denton",
+        "state": "TX",
+        "zip": "76201"
+      },
+      "coordinates": {
+        "latitude": 33.2291,
+        "longitude": -97.1692
+      }
+    },
+    {
+      "store_id": 40,
+      "address": {
+        "street": "1251 N Saginaw Blvd",
+        "city": "Saginaw",
+        "state": "TX",
+        "zip": "76179"
+      },
+      "coordinates": {
+        "latitude": 32.8731,
+        "longitude": -97.3633
+      }
+    },
+    {
+      "store_id": 41,
+      "address": {
+        "street": "2900 Renaissance Square",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76105"
+      },
+      "coordinates": {
+        "latitude": 32.7001,
+        "longitude": -97.2690
+      }
+    },
+    {
+      "store_id": 42,
+      "address": {
+        "street": "3801 W State Hwy 31",
+        "city": "Corsicana",
+        "state": "TX",
+        "zip": "75110"
+      },
+      "coordinates": {
+        "latitude": 32.0927,
+        "longitude": -96.5193
+      }
+    },
+    {
+      "store_id": 43,
+      "address": {
+        "street": "1200 N Highway 77",
+        "city": "Waxahachie",
+        "state": "TX",
+        "zip": "75165"
+      },
+      "coordinates": {
+        "latitude": 32.4146,
+        "longitude": -96.8443
+      }
+    },
+    {
+      "store_id": 44,
+      "address": {
+        "street": "1705 W University Dr",
+        "city": "McKinney",
+        "state": "TX",
+        "zip": "75069"
+      },
+      "coordinates": {
+        "latitude": 33.2194,
+        "longitude": -96.6427
+      }
+    },
+    {
+      "store_id": 45,
+      "address": {
+        "street": "5001 McKinney Ranch Pkwy",
+        "city": "McKinney",
+        "state": "TX",
+        "zip": "75070"
+      },
+      "coordinates": {
+        "latitude": 33.1655,
+        "longitude": -96.6835
+      }
+    },
+    {
+      "store_id": 46,
+      "address": {
+        "street": "2041 Redbud Blvd",
+        "city": "McKinney",
+        "state": "TX",
+        "zip": "75069"
+      },
+      "coordinates": {
+        "latitude": 33.2264,
+        "longitude": -96.6287
+      }
+    },
+    {
+      "store_id": 47,
+      "address": {
+        "street": "500 E Farm To Market 544",
+        "city": "Murphy",
+        "state": "TX",
+        "zip": "75094"
+      },
+      "coordinates": {
+        "latitude": 33.0120,
+        "longitude": -96.6151
+      }
+    },
+    {
+      "store_id": 48,
+      "address": {
+        "street": "530 Highway 78 N",
+        "city": "Wylie",
+        "state": "TX",
+        "zip": "75098"
+      },
+      "coordinates": {
+        "latitude": 33.0125,
+        "longitude": -96.5303
+      }
+    },
+    {
+      "store_id": 49,
+      "address": {
+        "street": "1757 Market Place Blvd",
+        "city": "Irving",
+        "state": "TX",
+        "zip": "75063"
+      },
+      "coordinates": {
+        "latitude": 32.9212,
+        "longitude": -96.9612
+      }
+    },
+    {
+      "store_id": 50,
+      "address": {
+        "street": "401 Coke Ave",
+        "city": "Hillsboro",
+        "state": "TX",
+        "zip": "76645"
+      },
+      "coordinates": {
+        "latitude": 31.9979,
+        "longitude": -97.1137
+      }
+    }
+  ]
+}
